@@ -1,0 +1,26 @@
+/*
+	In		Alpha = 01				Numeric (Hexadecimal) = 10
+			           o0  o1  o2  o3  o4  o5  o6  			   o0  o1  o2  o3  o4  o5  o6
+	0000		A	=   a   b   c       e   f   g		0	=   a   b   c   d   e   f
+	0001		b	=           c   d   e   f   g		1 	=       b   c
+	0010		C	=   a           d   e   f		2 	=   a   b       d   e       g
+	0011		d	=       b   c   d   e       g		3 	=   a   b   c   d           g
+	0100		E	=   a           d   e   f   g		4 	=       b   c           f   g
+	0101		F	=   a               e   f   g		5 	=   a       c   d       f   g
+	0110		G	=   a       c   d   e   f		6 	=   a       c   d   e   f   g
+	0111		H	=       b   c       e   f   g		7 	=   a   b   c
+	1000		I	=       b   c				8 	=   a   b   c   d   e   f   g
+	1001		J	=       b   c   d			9 	=   a   b   c           f   g
+	1010		L	=               d   e   f		a	=   a   b   c   d   e       g
+	1011		O	=   a   b   c   d   e   f		b	=           c   d   e   f   g
+	1100		P	=   a   b           e   f   g		c	=               d   e       g
+	1101		S	=   a       c   d       f   g		d	=       b   c   d   e       g
+	1110		U	=       b   c   d   e   f		e	=   a   b       d   e   f   g
+	1111		Z	=   a   b       d   e       g		f	=   a               e   f   g
+
+*/
+
+mode 00 = Off Mode
+mode 01 = Alpha mode
+mode 10 = Numeric mode
+mode 11 = Light test
