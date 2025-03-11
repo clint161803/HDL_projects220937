@@ -8,6 +8,8 @@ Language: Verilog
 
 Projects implemented in CPLD (EPM240) using verilog HDL.
 
-Testbenches included in every v file.
+Testbenches included in every .v file.
 
-Highly recommended to remove the testbench modules before uploading it on CPLD or FPGA.
+Highly recommended to remove testbench modules before uploading to a CPLD or FPGA.
+
+Caution: The provided testbenches are already working and have been successfully simulated using ModelSim. However, undetected errors may still exist, such as incorrect outputs or upload issues in Quartus. If errors occur, they can typically be resolved with minor debugging or adjustments.
